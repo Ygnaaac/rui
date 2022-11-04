@@ -65,4 +65,4 @@ class rMoreItems extends HTMLElement {
 
 customElements.define('r-more-items', rMoreItems)
 
-export default rMoreItems;
+module.exports.rMoreItems = rMoreItems;
